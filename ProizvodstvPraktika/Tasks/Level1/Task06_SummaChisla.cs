@@ -11,7 +11,7 @@ namespace ProizvodstvPraktika.Tasks.Level1
     {
         public string Title => " Сумма цифр числа (строка + арифметика)";
 
-        public string Description => "найти сумму цифр введённого числа (например, 1234 → 10).";
+        public string Description => "Нахождение суммы цифр введённого числа";
 
         public string[] Requirements => new[]
         {

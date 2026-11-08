@@ -11,7 +11,7 @@ namespace ProizvodstvPraktika.Tasks.Level1
     {
         public string Title => " FizzBuzz 1–100";
 
-        public string Description => "вывести числа от 1 до 100 с заменами определенных элементов";
+        public string Description => "Вывод чисел от 1 до 100 с заменами определенных элементов";
 
         public string[] Requirements => new[]
         {

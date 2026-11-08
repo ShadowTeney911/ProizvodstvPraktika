@@ -12,7 +12,7 @@ namespace ProizvodstvPraktika.Tasks.Level1
     {
         public string Title => "Диагональ матрицы N×N";
 
-        public string Description => " найти сумму элементов главной диагонали матрицы N×N.";
+        public string Description => "Нахождение суммы элементов главной диагонали матрицы указанного размера";
 
         public string[] Requirements => new[]
         {

@@ -12,7 +12,7 @@ namespace ProizvodstvPraktika.Tasks.Level1
 
         public string Title => "Счётчик вхождений слов в тексте (Dictionary)";
 
-        public string Description => "посчитать, сколько раз каждое слово встречается в тексте";
+        public string Description => "Подсчёт количества раз встречи каждого слова в тексте";
 
         public string[] Requirements => new[]
         {
