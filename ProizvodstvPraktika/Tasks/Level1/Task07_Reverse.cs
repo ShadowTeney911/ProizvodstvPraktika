@@ -11,7 +11,7 @@ namespace ProizvodstvPraktika.Tasks.Level1
     {
         public string Title => "Реверс строки без LINQ";
 
-        public string Description => "Разворот строки задом наперед";
+        public string Description => "перевернуть введённую строку";
 
         public string[] Requirements => new[]
         {

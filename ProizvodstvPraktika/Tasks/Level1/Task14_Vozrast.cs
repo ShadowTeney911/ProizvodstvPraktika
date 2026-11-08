@@ -12,7 +12,7 @@ namespace ProizvodstvPraktika.Tasks.Level1
     {
         public string Title => "Возраст по дате рождения";
 
-        public string Description => "По дате рождения вычисляется точный возраст в годах, месяцах и днях";
+        public string Description => "по дате рождения вычислить точный возраст в годах, месяцах и днях";
 
         public string[] Requirements => new[]
         {

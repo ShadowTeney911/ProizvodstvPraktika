@@ -11,7 +11,7 @@ namespace ProizvodstvPraktika.Tasks.Level1
     {
         public string Title => "Массивы: min/max/sum/avg";
 
-        public string Description => "Нахождение минимума, максимума, суммы и среднего арифметического числа для массива элементов.";
+        public string Description => "для массива чисел найти минимум, максимум, сумму и среднее.";
 
         public string[] Requirements => new[]
         {

@@ -11,7 +11,7 @@ namespace ProizvodstvPraktika.Tasks.Level1
     {
         public string Title => "Палиндром (без учёта регистра/пробелов)";
 
-        public string Description => "Проверка, является ли строка палиндромом (задом наперед читается также)";
+        public string Description => "проверить, является ли строка палиндромом";
 
         public string[] Requirements => new[]
         {
