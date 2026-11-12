@@ -1,5 +1,6 @@
 ﻿using ProizvodstvPraktika.Common;
 using ProizvodstvPraktika.Tasks.Level1;
+using ProizvodstvPraktika.Tasks.Level2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -86,6 +87,9 @@ namespace ProizvodstvPraktika.Menu
                     case "14":
                         RunTask(new Task14_Vozrast());
                         break;
+                    case "15":
+                        RunTask(new Task15_WorkFilesandGit());
+                        break;
 
 
 
@@ -93,6 +97,53 @@ namespace ProizvodstvPraktika.Menu
 
             }
         }
+        public void ShowLevel2Menu()
+        {
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("--==  Уровень 2: Средний  ==--");
+                Console.WriteLine("1) Методы расширения для string");
+                Console.WriteLine("2) StringBuilder vs конкатенация (замер)");
+                Console.WriteLine("3) TryParse vs TryCatch");
+                Console.WriteLine("4) --- ");
+                Console.WriteLine("5) --- ");
+                Console.WriteLine("6) Enum дни недели ");
+
+                Console.WriteLine("0) Назад");
+                Console.WriteLine("\n Выберите нужную вам задачу с помощью номеру");
+                string UserChoice = Console.ReadLine();
+                switch (UserChoice)
+                {
+                    default:
+                        Console.WriteLine("Неверный выбор. Нажмите Enter");
+                        Console.ReadKey();
+                        break;
+                    case "0": Console.Clear(); return;
+
+                    case "1":
+                        RunTask(new Task16_StringExtension());
+                        break;
+                    case "2":
+                        RunTask(new Task17_StringBuilder());
+                        break;
+                    case "3":
+                        RunTask(new Task18_TryParseETC());
+                        break;
+                    case "4":
+                        Console.WriteLine("-=Wip=-");
+                        break;
+                    case "5":
+                        Console.WriteLine("-=Wip=-");
+                        break;
+                    case "6":
+                        RunTask(new Task21_Enum());
+                        break;
+                }
+
+            }
+        }
+
         private void RunTask(ITask task)
         {
             Console.Clear();

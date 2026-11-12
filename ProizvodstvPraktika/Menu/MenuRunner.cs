@@ -28,7 +28,7 @@ namespace ProizvodstvPraktika.Menu
                         levelMenu.ShowLevel1Menu();
                         break;
                     case "2":
-                        Console.WriteLine("--== WorkInProgress  ==--");
+                        levelMenu.ShowLevel2Menu();
                         Console.ReadKey();
                         break;
                     case "3":

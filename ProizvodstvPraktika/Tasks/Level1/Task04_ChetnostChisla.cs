@@ -26,7 +26,7 @@ namespace ProizvodstvPraktika.Tasks.Level1
             int n = int.Parse(Console.ReadLine());
 
             // Способ 1: через % 2 == 0
-            bool IsEven1 = n % 2 == 0;
+            bool Metod1 = n % 2 == 0;
 
             // Способ 2: через тернарный оператор --- Тернарный оператор ? : — это сокращённая запись if-else. 
             /*
@@ -34,10 +34,10 @@ namespace ProizvodstvPraktika.Tasks.Level1
              * Если да (условие истинно) → возвращается true
              * Если нет (условие ложно) → возвращается false
             */
-            bool IsEven2 = n % 2 == 0 ? true : false;
+            bool Metod2 = n % 2 == 0 ? true : false;
             
-            Console.WriteLine($"Способ 1: {(IsEven1 ? "чётное" : "нечётное")}");
-            Console.WriteLine($"Способ 2: {(IsEven2 ? "чётное" : "нечётное")}");
+            Console.WriteLine($"Способ 1: {(Metod1 ? "чётное" : "нечётное")}");
+            Console.WriteLine($"Способ 2: {(Metod2 ? "чётное" : "нечётное")}");
         }
     }
 }

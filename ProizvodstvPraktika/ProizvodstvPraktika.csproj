@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\ITask.cs" />
+    <Compile Include="Common\StringExtensions.cs" />
     <Compile Include="Menu\LevelMenu.cs" />
     <Compile Include="Menu\MenuRunner.cs" />
     <Compile Include="Program.cs" />
@@ -62,6 +63,12 @@
     <Compile Include="Tasks\Level1\Task11_Diagonal.cs" />
     <Compile Include="Tasks\Level1\Task12_Palindrom.cs" />
     <Compile Include="Tasks\Level1\Task14_Vozrast.cs" />
+    <Compile Include="Tasks\Level1\Task15_WorkFilesandGit.cs" />
+    <Compile Include="Tasks\Level2\Task16_StringExtension.cs" />
+    <Compile Include="Tasks\Level2\Task17_StringBuilder.cs" />
+    <Compile Include="Tasks\Level2\Task18_TryParseETC.cs" />
+    <Compile Include="Tasks\Level2\Task19_Stack.cs" />
+    <Compile Include="Tasks\Level2\Task21_Enum.cs" />
     <Compile Include="ПАПКА\PRIMER FOR MYSELF.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -70,9 +77,8 @@
     <None Include="ПАПКА\Задание1.md" />
     <None Include="ПАПКА\Задание2.md" />
     <None Include="ПАПКА\#Практикум С#.md" />
+    <None Include="ПАПКА\Задание3.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tasks\Level2\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -24,7 +24,7 @@ namespace ProizvodstvPraktika.Tasks.Level1
         {
             Console.Write("Введите строку: ");
             string s = Console.ReadLine();
-            string Reverse = s;
+
             {
                 string result = "";
                 for (int i = s.Length - 1; i >= 0; i--)

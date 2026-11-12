@@ -57,10 +57,10 @@ namespace ProizvodstvPraktika.Tasks.Level1
 
             
                 Random rnd = new Random();
-                int[] numbers = new int[20];
+                int[] numbers = new int[10];
 
                 for (int i = 0; i < numbers.Length; i++)
-                    numbers[i] = rnd.Next(1, 101);
+                    numbers[i] = rnd.Next(1, 10);
 
                 Console.WriteLine("Массив: " + string.Join(" ", numbers));
                 Console.WriteLine($"Минимум: {FindMin(numbers)}");

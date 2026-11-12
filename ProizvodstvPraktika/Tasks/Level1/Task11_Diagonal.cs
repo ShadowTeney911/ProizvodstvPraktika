@@ -23,7 +23,7 @@ namespace ProizvodstvPraktika.Tasks.Level1
 
         public void Run()
         {
-            // Ввод N с проверкой
+            // Ввод N с проверкой. При вводе нежелательного результата цикл будет повторяться, пока не ввод не подойдёт
             int n;
             do
             {
@@ -39,7 +39,7 @@ namespace ProizvodstvPraktika.Tasks.Level1
                     matrix[i, j] = rnd.Next(1, 100);
 
             // Вывод матрицы
-            Console.WriteLine("\nМатрица:");
+            Console.WriteLine("Матрица:");
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
@@ -52,7 +52,7 @@ namespace ProizvodstvPraktika.Tasks.Level1
             for (int i = 0; i < n; i++)
                 sum += matrix[i, i];
 
-            Console.WriteLine($"\nСумма главной диагонали: {sum}");
+            Console.WriteLine($"Сумма главной диагонали: {sum}");
         }
     }
 }

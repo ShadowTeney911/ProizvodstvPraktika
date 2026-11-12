@@ -10,17 +10,6 @@ namespace ProizvodstvPraktika.Tasks.Level1
 {
     internal class Task10_SortBubble : ITask
     {
-        /*
-         * Задание 10. 
-Что сделать: отсортировать массив двумя алгоритмами.
-Требования:
-
-Реализовать BubbleSort и InsertionSort отдельными методами.
-Оба — без LINQ и Array.Sort.
-Замерить время каждого через Stopwatch на массиве 10 000 элементов.
-Вывести оба времени.
-Готово, если: оба массива отсортированы одинаково, времена выведены.
-         * */
         public string Title => "Сортировка пузырьком + вставками";
 
         public string Description => "отсортировать массив двумя алгоритмами";
