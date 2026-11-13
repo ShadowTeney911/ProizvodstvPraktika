@@ -69,6 +69,13 @@
     <Compile Include="Tasks\Level2\Task18_TryParseETC.cs" />
     <Compile Include="Tasks\Level2\Task19_Stack.cs" />
     <Compile Include="Tasks\Level2\Task21_Enum.cs" />
+    <Compile Include="Tasks\Level2\Task22_Params.cs" />
+    <Compile Include="Tasks\Level2\Task24_OOP.cs" />
+    <Compile Include="Tasks\Level2\Task25_Figures.cs" />
+    <Compile Include="Tasks\Level2\Task26_SkidkiPattern.cs" />
+    <Compile Include="Tasks\Level2\Task29_Fabric.cs" />
+    <Compile Include="Tasks\Level2\Task30_BankAcc.cs" />
+    <Compile Include="Tasks\Level2\Task31_IDisopavle.cs" />
     <Compile Include="ПАПКА\PRIMER FOR MYSELF.cs" />
   </ItemGroup>
   <ItemGroup>

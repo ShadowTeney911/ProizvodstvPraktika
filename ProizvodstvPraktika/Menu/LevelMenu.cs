@@ -65,7 +65,7 @@ namespace ProizvodstvPraktika.Menu
                         break;
                     case "7":
                         RunTask(new Task07_Reverse());
-                    break;
+                        break;
                     case "8":
                         RunTask(new Task08_FizzBuss());
                         break;
@@ -109,6 +109,17 @@ namespace ProizvodstvPraktika.Menu
                 Console.WriteLine("4) --- ");
                 Console.WriteLine("5) --- ");
                 Console.WriteLine("6) Enum дни недели ");
+                Console.WriteLine("7) Params");
+                Console.WriteLine("8) --- ");
+                Console.WriteLine("9) ОбъОринтПрогрм");
+                Console.WriteLine("10) Фигуры");
+                Console.WriteLine("11) Скидки и паттерны");
+                Console.WriteLine("12) ---");
+                Console.WriteLine("13) ---");
+                Console.WriteLine("14)Фабрика");
+                Console.WriteLine("15) Банк аккаунт");
+                Console.WriteLine("16) IDisposable");
+
 
                 Console.WriteLine("0) Назад");
                 Console.WriteLine("\n Выберите нужную вам задачу с помощью номеру");
@@ -139,8 +150,38 @@ namespace ProizvodstvPraktika.Menu
                     case "6":
                         RunTask(new Task21_Enum());
                         break;
+                    case "7":
+                        RunTask(new Task22_Params());
+                        break;
+                    case "8":
+                        Console.WriteLine("-=Wip=-");
+                        break;
+                    case "9":
+                        RunTask(new Task24_OOP());
+                        break;
+                    case "10":
+                        RunTask(new Task25_Figures());
+                        break;
+                    case "11":
+                        RunTask(new Task26_SkidkiPattern());
+                        break;
+                    case "12":
+                        break;
+                    case "13":
+                        break;
+                    case "14":
+                        RunTask(new Task29_Fabric());
+                        break;
+                    case "15":
+                        RunTask(new Task30_BankAcc());
+                        break;
+                    case "16":
+                        RunTask(new Task31_IDisopavle());
+                        break;
+                    case "17":
+                       // RunTask(new Task32());
+                        break;
                 }
-
             }
         }
 
