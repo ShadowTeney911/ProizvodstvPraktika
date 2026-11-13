@@ -119,6 +119,10 @@ namespace ProizvodstvPraktika.Menu
                 Console.WriteLine("14)Фабрика");
                 Console.WriteLine("15) Банк аккаунт");
                 Console.WriteLine("16) IDisposable");
+                Console.WriteLine("17) Свойства");
+                Console.WriteLine("18) LINQ");
+                Console.WriteLine("19) LINQ 2");
+
 
 
                 Console.WriteLine("0) Назад");
@@ -179,7 +183,13 @@ namespace ProizvodstvPraktika.Menu
                         RunTask(new Task31_IDisopavle());
                         break;
                     case "17":
-                       // RunTask(new Task32());
+                        RunTask(new Task32_Svoystva());
+                        break;
+                    case "18":
+                        RunTask(new Task33_LINQ());
+                        break;
+                    case "19":
+                        RunTask(new Task34_LINQ2());
                         break;
                 }
             }

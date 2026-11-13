@@ -76,6 +76,9 @@
     <Compile Include="Tasks\Level2\Task29_Fabric.cs" />
     <Compile Include="Tasks\Level2\Task30_BankAcc.cs" />
     <Compile Include="Tasks\Level2\Task31_IDisopavle.cs" />
+    <Compile Include="Tasks\Level2\Task32_Svoystva.cs" />
+    <Compile Include="Tasks\Level2\Task33_LINQ.cs" />
+    <Compile Include="Tasks\Level2\Task34_LINQ2.cs" />
     <Compile Include="ПАПКА\PRIMER FOR MYSELF.cs" />
   </ItemGroup>
   <ItemGroup>
