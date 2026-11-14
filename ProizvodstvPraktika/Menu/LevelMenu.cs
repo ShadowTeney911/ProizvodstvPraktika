@@ -1,6 +1,7 @@
 ﻿using ProizvodstvPraktika.Common;
 using ProizvodstvPraktika.Tasks.Level1;
 using ProizvodstvPraktika.Tasks.Level2;
+using ProizvodstvPraktika.Tasks.Level3;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -190,6 +191,34 @@ namespace ProizvodstvPraktika.Menu
                         break;
                     case "19":
                         RunTask(new Task34_LINQ2());
+                        break;
+                }
+            }
+        }
+        public void ShowLevel3Menu()
+        {
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("--==  Уровень 2: Средний  ==--");
+                Console.WriteLine("1) Дубликаты в list");
+                
+
+
+
+                Console.WriteLine("0) Назад");
+                Console.WriteLine("\n Выберите нужную вам задачу с помощью номеру");
+                string UserChoice = Console.ReadLine();
+                switch (UserChoice)
+                {
+                    default:
+                        Console.WriteLine("Неверный выбор. Нажмите Enter");
+                        Console.ReadKey();
+                        break;
+                    case "0": Console.Clear(); return;
+
+                    case "1":
+                        RunTask(new Task36_DuplicateList());
                         break;
                 }
             }

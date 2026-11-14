@@ -79,6 +79,7 @@
     <Compile Include="Tasks\Level2\Task32_Svoystva.cs" />
     <Compile Include="Tasks\Level2\Task33_LINQ.cs" />
     <Compile Include="Tasks\Level2\Task34_LINQ2.cs" />
+    <Compile Include="Tasks\Level3\Task36_DuplicateList.cs" />
     <Compile Include="ПАПКА\PRIMER FOR MYSELF.cs" />
   </ItemGroup>
   <ItemGroup>

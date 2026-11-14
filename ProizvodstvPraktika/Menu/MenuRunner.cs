@@ -32,7 +32,7 @@ namespace ProizvodstvPraktika.Menu
                         Console.ReadKey();
                         break;
                     case "3":
-                        Console.WriteLine("--== WorkInProgress  ==--");
+                        levelMenu.ShowLevel3Menu();
                         Console.ReadKey();
                         break;
                     case "4":
