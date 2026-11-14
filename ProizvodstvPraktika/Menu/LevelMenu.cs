@@ -202,8 +202,14 @@ namespace ProizvodstvPraktika.Menu
                 Console.Clear();
                 Console.WriteLine("--==  Уровень 2: Средний  ==--");
                 Console.WriteLine("1) Дубликаты в list");
-                
-
+                Console.WriteLine("2) Число Фибоначи");
+                Console.WriteLine("3) Бенчмарки лист");
+                Console.WriteLine("4) Yield Return");
+                Console.WriteLine("5) Async");
+                Console.WriteLine("6)Task Whenall");
+                Console.WriteLine("7) Cancel Tokken");
+                Console.WriteLine("8) MULITITASK");
+                Console.WriteLine("9) ToDO list");
 
 
                 Console.WriteLine("0) Назад");
@@ -219,6 +225,30 @@ namespace ProizvodstvPraktika.Menu
 
                     case "1":
                         RunTask(new Task36_DuplicateList());
+                        break;
+                    case "2":
+                        RunTask(new Task37_Fibonachi());
+                        break;
+                    case "3":
+                        RunTask(new Task38_Benchmark());
+                        break;
+                    case "4":
+                        RunTask(new Task39_YieldReturn());
+                        break;
+                    case "5":
+                        RunTask(new Task40_AsyncSomething());
+                        break;
+                    case "6":
+                        RunTask(new Task41_TaskWhenAll());
+                        break;
+                    case "7":
+                        RunTask(new Task42_TokkenCancel());
+                        break;
+                    case "8":
+                        RunTask(new Task43_MultiIskl());
+                        break;
+                    case "9":
+                        RunTask(new Task44_ToDo());
                         break;
                 }
             }
